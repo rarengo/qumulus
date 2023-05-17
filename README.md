@@ -37,10 +37,10 @@ Node Version: v18.16.0
 
 ## Notes:
 
--able to finish the schema rules in filtering email through regex
--able to finish the logic in the schema rules for enabling and disabling button
--All schema rules can be found at FormContainer.vue
-
-missing implementation that i need to do due to limited time that i have
--implement store to contain the values of the schema
+-able to finish the schema rules in filtering email through regex <br />
+-able to finish the logic in the schema rules for enabling and disabling button <br />
+-All schema rules can be found at FormContainer.vue <br />
+<br />
+missing implementation that i need to do due to limited time that i have <br />
+-implement store to contain the values of the schema <br /> 
 -the store will contain the boolean value of the schema for the date and implement a watcher so that when the value change the button that has the "isButtonDisabled" will be enabled once the watcher on the store hit the validated value from the schema when the age is over 18
